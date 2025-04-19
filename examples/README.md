@@ -1,0 +1,1 @@
+# 📎 Beispielcode, wie man das Paket verwendet – z. B. für Nutzer oder Entwickler

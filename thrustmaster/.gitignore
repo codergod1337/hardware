@@ -1,0 +1,10 @@
+# VS Code Ordner (lokale Editor-Einstellungen)
+.vscode/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen (nur falls du z. B. venv statt conda nutzt)
+.venv/
+env/
