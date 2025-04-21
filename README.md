@@ -25,11 +25,15 @@ Das Projekt wurde mit einem **Thrustmaster T.Flight Stick X** getestet. Andere J
 
 1. conda create -n hardware python=3.12
 2. conda activate hardware
-3. pip install black isort flake8 mypy pytest pandas sympy numpy pygame
+3. pip install black isort flake8 mypy pytest pandas sympy numpy pygame hid
 4. Repository klonen:
    ```bash
-   git clone https://github.com/dein-nutzername/joystick-reader.git
-   cd joystick-reader
+   git clone https://github.com/codergod1337/hardware.git
+   ´´´
+5. DOWNLOAD hidapi.dll from https://github.com/libusb/hidapi/releases
+   save hidapi-win.zip at ~/_files and extract archive in the same directory
+   otherwise you need to FIX import path in some scripts
+   
 
 ## notes
 **black – Der Code Formatter**
