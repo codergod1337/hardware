@@ -25,7 +25,7 @@ Das Projekt wurde mit einem **Thrustmaster T.Flight Stick X** getestet. Andere J
 
 1. conda create -n hardware python=3.12
 2. conda activate hardware
-3. pip install black isort flake8 mypy pytest pandas sympy numpy pygame
+3. pip install black isort flake8 mypy pytest pandas sympy numpy pygame hid
 4. Repository klonen:
    ```bash
    git clone https://github.com/dein-nutzername/joystick-reader.git
@@ -54,8 +54,6 @@ Was es tut: Überprüft deinen Code auf Verstöße gegen PEP 8, unbenutzte Varia
 
 Ziel: Sauberer, korrekter Code ohne „Stolperfallen“.
 
-Nutzen: Du findest Probleme schon beim Schreiben, nicht erst beim Debuggen.
-
 **mypy – Statische Typprüfung**
 Was es tut: Prüft deinen Code auf Typfehler, basierend auf deinen Typannotationen (str, int, list[str] etc.).
 
@@ -63,11 +61,7 @@ Ziel: Frühzeitiges Erkennen von Typ-Fehlverwendungen.
 
 Beispiel: def foo(x: int) -> str: wird angemeckert, wenn int zurückkommt.
 
-Nutzen: Mehr Sicherheit und Wartbarkeit bei größeren Projekten.
-
 **pytest – Test-Framework**
 Was es tut: Führt automatisierte Tests aus, erkennt test_*.py-Dateien und test_*-Funktionen.
 
 Ziel: Testgetriebene Entwicklung (TDD) und kontinuierliche Absicherung der Funktionalität.
-
-Nutzen: Du kannst jederzeit prüfen, ob alles noch funktioniert.
