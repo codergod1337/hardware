@@ -58,8 +58,6 @@ Was es tut: Überprüft deinen Code auf Verstöße gegen PEP 8, unbenutzte Varia
 
 Ziel: Sauberer, korrekter Code ohne „Stolperfallen“.
 
-Nutzen: Du findest Probleme schon beim Schreiben, nicht erst beim Debuggen.
-
 **mypy – Statische Typprüfung**
 Was es tut: Prüft deinen Code auf Typfehler, basierend auf deinen Typannotationen (str, int, list[str] etc.).
 
@@ -67,11 +65,7 @@ Ziel: Frühzeitiges Erkennen von Typ-Fehlverwendungen.
 
 Beispiel: def foo(x: int) -> str: wird angemeckert, wenn int zurückkommt.
 
-Nutzen: Mehr Sicherheit und Wartbarkeit bei größeren Projekten.
-
 **pytest – Test-Framework**
 Was es tut: Führt automatisierte Tests aus, erkennt test_*.py-Dateien und test_*-Funktionen.
 
 Ziel: Testgetriebene Entwicklung (TDD) und kontinuierliche Absicherung der Funktionalität.
-
-Nutzen: Du kannst jederzeit prüfen, ob alles noch funktioniert.
